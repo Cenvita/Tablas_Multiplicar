@@ -12,7 +12,7 @@ public class TablasDeMultiplicar {
             System.out.println("La tabla del " + j + " es:"); // Imprime la cabecera de la tabla actual
 
             // Bucle interno: itera a través de los números del 1 al 10 para multiplicar por 'j'
-            for (int i = 1; i <= 50; i++) {
+            for (int i = 1; i <= 10; i++) {
                 System.out.println(i + " x " + j + " = " + (i * j)); // Imprime cada línea de la tabla de multiplicar
             }
 
